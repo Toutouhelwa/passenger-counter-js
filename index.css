@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: #342b4d;
+    width: 100%;
+    max-width: 500px;
+    margin:0 auto;
+    padding: 30px;
+    
+}
+h2{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+h3{
+    color: rgb(44, 138, 145);
+    font-size: 30px;
+}
+.increment-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(77, 21, 21);
+}
