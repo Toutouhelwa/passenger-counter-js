@@ -1,6 +1,12 @@
 let countEl = document.getElementById("count-el")
-let count = 0;
+let string = document.getElementById("string-el")
+ var count = 0;
 function increment() {
-    count= count + 1;
+    count+=1;
     countEl.innerText=count;
 }
+function save (){
+    let counster = count+" - "
+    string.textContent+=counster
+}
+save()
