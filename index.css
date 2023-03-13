@@ -3,7 +3,8 @@
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    background-color: #342b4d;
+    background-image: url(téléchargement.jpg);
+    background-size: cover;
     width: 100%;
     max-width: 500px;
     margin:0 auto;
@@ -11,27 +12,25 @@
     
 }
 h2{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
-}
-h3{
-    color: rgb(44, 138, 145);
     font-size: 30px;
 }
 p{
-    color: aliceblue;
-    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
 }
 .increment-btn{
     width: 200px;
     height: 50px;
-    font-size: 20px;
+    font-size: 30px;
     background-color: rgb(77, 21, 21);
 }
 .save-btn{
     width: 200px;
     height: 50px;
-    font-size: 20px;
+    font-size: 30px;
     background-color: rgb(17, 94, 46);
     margin-top:20px;
 }
